@@ -1,1 +1,2 @@
 # 601
+CREATE TABLE 
