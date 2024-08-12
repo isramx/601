@@ -4,9 +4,6 @@
     box-sizing: boder-box;
 }
 
-img {
-    max-width: 6rem;
-}
 /* Estilos del contenedor */
 .container {
     display: flex;
