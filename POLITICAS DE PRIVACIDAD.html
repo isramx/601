@@ -1,11 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POLITICAS DE PRIVACIDAD</title>
+    <title>Política de Privacidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8f0ac4;
+        }
+
+        .privacy-policy {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .privacy-policy h1 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        .privacy-policy h2 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .privacy-policy p {
+            line-height: 1.6;
+        }
+
+        .privacy-policy a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .privacy-policy a:hover {
+            text-decoration: underline;
+        }
+
+        .accept-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 20px auto 0;
+            padding: 10px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #8c08a7;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .accept-button:hover {
+            background-color: #0056b3;
+        }
+
+        .accepted-message {
+            display: none;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="privacy-policy">
+        <h1>Política de Privacidad</h1>
+        <p>Última actualización: [11/08/24]</p>
+        <p>En RUTA DE TRANSPORTE 601, nos comprometemos a proteger su privacidad. Esta política de privacidad explica cómo recopilamos, usamos, divulgamos y protegemos su información.</p>
+
+        <h2>1. Información que Recopilamos</h2>
+        <p>Recopilamos la siguiente información:</p>
+        <ul>
+            <li>Información personal que nos proporciona directamente.</li>
+            <li>Información sobre su uso de nuestro sitio web.</li>
+        </ul>
+
+        <h2>2. Cómo Usamos su Información</h2>
+        <p>Usamos su información para:</p>
+        <ul>
+            <li>Proporcionar y mejorar nuestros servicios.</li>
+            <li>Enviar actualizaciones y notificaciones.</li>
+        </ul>
+
+        <h2>3. Cómo Compartimos su Información</h2>
+        <p>No compartimos su información con terceros, excepto en los siguientes casos:</p>
+        <ul>
+            <li>Para cumplir con la ley.</li>
+            <li>Para proteger nuestros derechos y propiedad.</li>
+        </ul>
+
+        <h2>4. Seguridad de su Información</h2>
+        <p>Tomamos medidas razonables para proteger su información contra accesos no autorizados, divulgación, alteración o destrucción.</p>
+
+        <h2>5. Sus Derechos</h2>
+        <p>Usted tiene derecho a:</p>
+        <ul>
+            <li>Acceder a su información.</li>
+            <li>Solicitar la corrección de información inexacta.</li>
+            <li>Solicitar la eliminación de su información.</li>
+        </ul>
+
+        <h2>6. Cambios a Esta Política</h2>
+        <p>Podemos actualizar esta política de privacidad ocasionalmente. Le notificaremos sobre cualquier cambio significativo mediante un aviso en nuestro sitio web.</p>
+
+        <h2>7. Contacto</h2>
+        <p>Si tiene alguna pregunta sobre esta política de privacidad, por favor contáctenos a:</p>
+        <p>Email: <a href="cartihugo576@gmail.com">Omareza405@gmail.com</a></p>
+        
+        <button class="accept-button" onclick="acceptTerms()">Aceptar Términos y Condiciones</button>
+
+        <div id="acceptedMessage" class="accepted-message">
+            Gracias por aceptar los términos y condiciones.
+        </div>
+    </div>
+
+    <script>
+        function acceptTerms() {
+            document.getElementById('acceptedMessage').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
